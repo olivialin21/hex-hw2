@@ -61,14 +61,27 @@ table {
 }
 
 .header-contact{
-  height: 28px;
+  height: 30px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   background-color: #f6f6f6;
 }
 .header-contact a{
+  display: flex;
+  align-items: center;
   text-decoration: none;
+  margin-right: 15px;
+}
+.header-contact a span{
+  padding-top: 2px;
+  line-height: 12px;
+}
+.header-contact a img{
+  margin-right: 5px;
+  display: block;
+  width: 18px;
+  height: 18px;
 }
 .header-contact .fb{
   margin-right: 10px;
@@ -84,7 +97,10 @@ table {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 52px;
+}
+.nav-logo{
+  height: 36px;
+  margin: 9px 23px;
 }
 .nav-list{
   display: flex;
@@ -97,16 +113,16 @@ table {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 52px;
+  height: 54px;
   width: 80px;
-  color: #00cc98;
+  color: #00cc99;
   margin-right: 20px;
   position: relative;
 }
 .nav-list li:hover::before{
   content: "";
   position: absolute;
-  background-color: #00cc98;
+  background-color: #00cc99;
   width: 100%;
   height: 5px;
   bottom: 0;
@@ -119,6 +135,7 @@ table {
   height: 346px;
   background-image: url(../img/banner.png);
   background-size: cover;
+  background-position: center center;
   margin-bottom: 65px;
 }
 .banner h1{
@@ -131,7 +148,6 @@ table {
 }
 
 .cards{
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -179,7 +195,7 @@ table {
   margin-bottom: 63px;
 }
 .table th{
-  padding: 10px;
+  padding: 10px 24px;
   border-top: 1px solid #dbdbdb;
   border-bottom: 1px solid #dbdbdb;
   text-align: left;
@@ -187,7 +203,7 @@ table {
   background-color: #f7f7f7;
 }
 .table td{
-  padding: 10px;
+  padding: 10px 24px;
   border-top: 1px solid #dbdbdb;
   border-bottom: 1px solid #dbdbdb;
 }
