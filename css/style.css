@@ -169,6 +169,7 @@ table {
   margin-bottom: 12px;
 }
 .card p{
+  width: 100%;
   line-height: 24px;
   text-align: justify;
   text-justify:inter-ideograph;
@@ -214,16 +215,16 @@ table {
 
 .contact{
   color: #fff;
-  padding: 40px 20px 0 20px;
+  padding: 40px 20px 30px 20px;
   min-height: 405px;
   background-image: -webkit-linear-gradient(#006749,#02986e)
 }
 .contact h2{
   font-weight: 700;
   font-size: 24px;
-  line-height: 30px;
+  line-height: 40px;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .contact-form{
   display: flex;
