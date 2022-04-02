@@ -2,9 +2,9 @@
 
 ### 檔案架構
 ---
-├── Readme.md                   // 說明
-├── index.html                  // 首頁
-├── img                         // 圖片
-└── css                         // css
-    └── style.css
-
+hex-hw1
+ |-- Readme.md                   // 說明
+ |-- index.html                  // 首頁
+ |-- img                         // 圖片
+ |-- css                         // css
+    |-- style.css
