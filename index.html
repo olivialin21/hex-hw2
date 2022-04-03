@@ -15,6 +15,7 @@
   <meta property="og:url" content="FB上的網址" />
   <meta property="og:image" content="https://raw.githubusercontent.com/olivialin21/hex-hw1/main/img/logo-s.png" />
   
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -59,11 +60,32 @@
       </nav>
     </header>
     <article class="article">
-      <div class="banner">
-        <h1>
-          六角學院<br>
-          讓您奠定良好的前端基礎
-        </h1>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="banner swiper-slide">
+            <h1>
+              六角學院<br>
+              讓您奠定良好的前端基礎
+            </h1>
+          </div>  
+          <div class="banner swiper-slide">
+            <h1>
+              線上 24 小時內隨傳隨到<br>
+              寫程式不卡關
+            </h1>
+          </div>  
+          <div class="banner swiper-slide">
+            <h1>
+              不論身在何處<br>
+              在線上帶你就業
+            </h1>
+          </div>  
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
       </div>
       <div id="lesson" class="cards">
         <div class="card">
@@ -175,6 +197,7 @@
     </footer>  
   </div>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html> 
