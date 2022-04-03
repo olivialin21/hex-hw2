@@ -1,16 +1,16 @@
 $(document).ready(function(){
-  // 點nav-list時選單收縮
+  // 點“產品介紹”時，選單收縮
   $('.products').click(function(event){
     event.preventDefault();
     $(this).parent().toggleClass('active');
     $(this).parent().find('ul').stop().slideToggle();
   })
-  // 點折疊選單內的選項時，選單收起
-  $('.products').parent().find('ul li a').click(function(event){
-    event.preventDefault();
-    $('.products').parent().toggleClass('active');
-    $(this).parent().parent().slideToggle();
-  })
+  // 點選項或空白處時，選單收起
+  $(document).click(function(event){
+    if(!$('.products').is(event.target) && $('.products').has(event.target).length === 0){
+      $('.products').parent().find('ul').slideUp();  //滑動消失
+    }
+  });
 
   const swiper = new Swiper('.swiper', {
     // Optional parameters
