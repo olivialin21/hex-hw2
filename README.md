@@ -8,4 +8,6 @@ hex-hw1
  |-- img                         // 圖片
  |-- css                         // css
     |-- style.css
+ |-- js                          // js
+    |-- main.js
 ```
