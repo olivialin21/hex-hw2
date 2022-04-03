@@ -142,6 +142,7 @@ table {
   background-color: #00cc99;
 }
 
+/* swiper */
 .swiper{
   --swiper-theme-color: #00cc99;
   height: 346px;
@@ -204,12 +205,25 @@ table {
   line-height: 24px;
   margin-left: 20px;
 }
+/* lightBox */
+.lb-outerContainer{
+  background-color: transparent;
+}
+.lb-data .lb-details{
+  text-align: center;
+  width: 100%;
+}
+.lightbox .lb-image{
+  border: 0;
+}
+.lb-closeContainer{
+  padding-top: 30px;
+}
 
 .table-title{
   margin-bottom: 28px;
   font-size: 24px;
   text-align: center;
-  /* font-weight: 700; */
 }
 .table{
   margin:0 auto;
@@ -241,7 +255,6 @@ table {
   background-image: -webkit-linear-gradient(#006749,#02986e)
 }
 .contact h2{
-  /* font-weight: 700; */
   font-size: 24px;
   line-height: 40px;
   text-align: center;
