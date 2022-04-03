@@ -2,7 +2,7 @@
 
 ### 檔案架構
 ```
-hex-hw1
+hex-hw2
  |-- Readme.md                   // 說明
  |-- index.html                  // 首頁
  |-- img                         // 圖片
