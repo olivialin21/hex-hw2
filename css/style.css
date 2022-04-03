@@ -61,6 +61,27 @@ table {
   font-family: "Roboto", sans-serif;
 }
 
+.top{
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  background-color: #00cc99;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.52);
+}
+.top:hover{
+  background-color: #02986e;
+}
+.top i{
+  color: #fff;
+  font-size: 32px;
+  line-height: 44px;
+}
+
 .header-contact{
   height: 30px;
   display: flex;
